@@ -42,15 +42,17 @@ p.start {
 .tooltip {
   position: relative;
   display: inline-block;
-  border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+  border-bottom: 2px dotted black;
+  background-color: #b9799b88;
+  color: black;
 }
 
 /* Tooltip text */
 .tooltip .tooltiptext {
   visibility: hidden;
   width: auto;
-  background-color: darkcyan;
-  color: #fff;
+  background-color: #432334;
+  color: white;
   text-align: left;
   padding: 5px 5px;
   border-radius: 6px;
