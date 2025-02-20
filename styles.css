@@ -1,0 +1,69 @@
+body {
+  background-color: #B9799B;
+  padding-left:4%;
+  padding-right:4%;
+}
+h1 {
+  color: #432334;
+  margin:0;
+}
+a {
+  color:#502A3E;
+}
+p {
+  color: black
+}
+p.start {
+  margin-top: 0;
+}
+.header {
+  text-align: center;
+}
+.context{
+  background-color: #432334;
+  padding: 0.01% 1%;
+  p { 
+    color: white; 
+    margin-top: 0;
+  }
+  h1 {
+    color:#DCBCCD;
+    margin: 0;
+  }
+  a {
+    color:#DCBCCD;
+  }
+}
+.bodytext{
+  background-color: #EAD7E1;
+  padding: 0.01% 1%;
+
+}
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: auto;
+  background-color: darkcyan;
+  color: #fff;
+  text-align: left;
+  padding: 5px 5px;
+  border-radius: 6px;
+ 
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -60px;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
