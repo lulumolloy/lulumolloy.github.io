@@ -69,3 +69,20 @@ p.start {
 .tooltip:hover .tooltiptext {
   visibility: visible;
 }
+nav{
+  background-color: #EAD7E1;
+  margin: auto;
+  line-height: 2.5;
+  padding: 5px;
+
+  a {
+    background-color: #b9799b88;
+    outline-style: dotted;
+    outline-color: black;
+    outline-width: 2px;
+    color: black;
+    margin:7px;
+    padding: 5px;
+    text-decoration: none;
+  }
+}
