@@ -1,11 +1,26 @@
+.red-hat-display {
+  font-family: "Red Hat Display", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.limelight-regular {
+  font-family: "Limelight", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 body {
   background-color: #B9799B;
   padding-left:4%;
   padding-right:4%;
+  font-family: "Red Hat Display";
 }
 h1 {
   color: #432334;
   margin:0;
+  font-family: "LimeLight"
+  
 }
 a {
   color:#502A3E;
@@ -25,6 +40,21 @@ p.start {
   p { 
     color: white; 
     margin-top: 0;
+  }
+  h1 {
+    color:#DCBCCD;
+    margin: 0;
+  }
+  a {
+    color:#DCBCCD;
+  }
+}
+.citation{
+  background-color: #432334;
+  padding: 0.01% 1%;
+  p { 
+    color: white;
+    margin: 5px;
   }
   h1 {
     color:#DCBCCD;
