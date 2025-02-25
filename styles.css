@@ -101,8 +101,9 @@ p.start {
 }
 nav{
   background-color: #EAD7E1;
+  width: auto;
   margin: auto;
-  line-height: 2.5;
+  line-height: 2.7;
   padding: 5px;
 
   a {
@@ -115,4 +116,7 @@ nav{
     padding: 5px;
     text-decoration: none;
   }
+}
+hr.andy{
+  border-top: 2px dashed #432334;
 }
