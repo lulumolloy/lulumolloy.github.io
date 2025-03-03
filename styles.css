@@ -76,6 +76,14 @@ img.default {
   display:block;
   border:solid 5px #4EA589;
 }
+img.full {
+  background-color: #E9CDD3;
+  padding: 1% 1%;
+  border: solid 4px #CF7F92;
+  display:block;
+  margin:auto;
+
+}
 .header {
   text-align: center;
 }
