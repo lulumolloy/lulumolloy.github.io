@@ -11,19 +11,59 @@
 }
 
 body {
-  background-color: #B9799B;
+  background-image: url("background.png");
   padding-left:4%;
   padding-right:4%;
+  background-size: 30%;
   font-family: "Red Hat Display";
 }
+footer {
+  background-color:#274F43;
+  font-family: "Red Hat Display";
+  padding: 0.7%;
+  text-align: center;
+  width:fit-content;
+  margin:auto;
+  p{
+    color:white;
+    margin:0;
+  }
+  a {
+    color:white;
+  }
+}
 h1 {
-  color: #432334;
+  color: #50242A;
   margin:0;
   font-family: "LimeLight"
-  
 }
+h1.title {
+  a{
+  font-family: "LimeLight";
+  color: #CF7F92;
+  background-color: #50242A;
+  width:fit-content;
+  padding: 0.5% 5%;
+  margin: auto;
+  border: solid 6px #CF7F92;
+}
+}
+
+h2 {
+  color: #50242A;
+  margin:0;
+  font-family: "LimeLight"
+}
+
+h3 {
+  color: #50242A;
+  margin:0;
+  font-family: "Red Hat Display";
+  font-style: Bold;
+}
+
 a {
-  color:#502A3E;
+  color:#50242A;
 }
 p {
   color: black
@@ -31,33 +71,40 @@ p {
 p.start {
   margin-top: 0;
 }
+img.default {
+  margin:auto; 
+  display:block;
+  border:solid 5px #4EA589;
+}
 .header {
   text-align: center;
 }
 .context{
-  background-color: #432334;
+  background-color: #50242A;
   padding: 0.01% 1%;
+  border: solid 4px #CF7F92;
   p { 
     color: white; 
     margin-top: 0;
   }
   h1 {
-    color:#DCBCCD;
+    color:#CF7F92;
     margin: 0;
   }
   a {
-    color:#DCBCCD;
+    color:#CF7F92;
   }
 }
 .citation{
   background-color: #432334;
   padding: 0.01% 1%;
+  border: solid 4px #CF7F92;
   p { 
     color: white;
     margin: 5px;
   }
   h1 {
-    color:#DCBCCD;
+    color:#CF7F92;
     margin: 0;
   }
   a {
@@ -65,15 +112,16 @@ p.start {
   }
 }
 .bodytext{
-  background-color: #EAD7E1;
+  background-color: #E9CDD3;
   padding: 0.01% 1%;
+  border: solid 4px #CF7F92;
 
 }
 .tooltip {
   position: relative;
   display: inline-block;
   border-bottom: 2px dotted black;
-  background-color: #b9799b88;
+  background-color: #bf4e686d;
   color: black;
 }
 
@@ -100,23 +148,36 @@ p.start {
   visibility: visible;
 }
 nav{
-  background-color: #EAD7E1;
+  background-color: #C0EBDD;
   width: auto;
   margin: auto;
   line-height: 2.7;
   padding: 5px;
+  border: solid 4px #4EA589;
 
   a {
-    background-color: #b9799b88;
-    outline-style: dotted;
-    outline-color: black;
-    outline-width: 2px;
-    color: black;
+    background-color: #274F43;
+    outline: dashed 2px #4EA589;
+    color: white;
     margin:7px;
     padding: 5px;
     text-decoration: none;
   }
 }
 hr.andy{
-  border-top: 2px dashed #432334;
+  border-top: 2px dashed #50242A;
+}
+
+.images {
+  display:flex;
+  max-width: 100%;
+  margin:0;
+  align-items: center;
+  .text {
+    margin-top: 0;
+    flex:66%;
+  }
+  img {
+    height:350px;
+  }
 }
