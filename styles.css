@@ -97,6 +97,9 @@ img.full {
   }
   h1 {
     color:#CF7F92;
+    margin: 0;}
+  h2 {
+    color:#CF7F92;
     margin: 0;
   }
   a {
@@ -104,7 +107,7 @@ img.full {
   }
 }
 .citation{
-  background-color: #432334;
+  background-color: #50242A;
   padding: 0.01% 1%;
   border: solid 4px #CF7F92;
   p { 
@@ -116,7 +119,7 @@ img.full {
     margin: 0;
   }
   a {
-    color:#DCBCCD;
+    color:#CF7F92;
   }
 }
 .bodytext{
@@ -187,5 +190,37 @@ hr.andy{
   }
   img {
     height:350px;
+  }}
+  .index {
+    display:flex;
+    max-width:100%;
+    margin:0;
+    align-items: top;
+    border: solid 4px #CF7F92;
+    background-color: #E9CDD3;
+  .works {
+    text-align: center;
+    background-color: #E9CDD3;
+    padding: 2%;
+    display:block;
+    height:fit-content;
+    font-size: 1.25em;
   }
-}
+  .slo {
+    background-color: #50242A;
+    padding: 2%;
+    width: 60%;
+    p {
+      font-size: 1em;
+    color: white;
+    }
+    h2{
+      color: #CF7F92;
+    }
+    h1{
+      color: #CF7F92;
+    }
+    a {
+      color: #CF7F92;
+    }
+  }}
