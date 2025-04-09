@@ -10,6 +10,12 @@
   font-style: normal;
 }
 
+.berkshire-swash-regular {
+  font-family: "Berkshire Swash", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 body {
   background-image: url("background.png");
   padding-left:4%;
@@ -35,24 +41,27 @@ footer {
 h1 {
   color: #50242A;
   margin:0;
-  font-family: "LimeLight"
+  font-family: "Berkshire Swash";
+  font-size: 2.4em 
 }
 h1.title {
   a{
-  font-family: "LimeLight";
+  font-family: "Berkshire Swash";
   color: #CF7F92;
   background-color: #50242A;
   width:fit-content;
   padding: 0.5% 5%;
   margin: auto;
   border: solid 6px #CF7F92;
+  font-size:1.4em;
 }
 }
 
 h2 {
   color: #50242A;
   margin:0;
-  font-family: "LimeLight"
+  font-family: "Berkshire Swash";
+  font-size: 2em 
 }
 
 h3 {
@@ -191,7 +200,7 @@ hr.andy{
   img {
     height:350px;
   }}
-  .in {
+  .dualbox {
     display:flex;
     max-width:100%;
     margin:0;
@@ -208,9 +217,9 @@ hr.andy{
     .slo {
     background-color: #50242A;
     padding: 2%;
-    width: 60%;
+    width: 58%;
     p {
-      font-size: 1em;
+      font-size: 1.1em;
     color: white;
     }
     h2{
